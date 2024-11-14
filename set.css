@@ -1,4 +1,4 @@
-:root {
+  :root {
   /* MaxWidth Of Page, Container-Fluid, Container, Gutter*/
   --max-width-page: 2560px;
   --max-width-container-fluid: 1920px;
@@ -108,8 +108,6 @@
     :root {
       --max-width-container: 100%; } }
 
-html {
-  font-size: 62.5%; }
 
 body {
   background: var(--dark-cl);
