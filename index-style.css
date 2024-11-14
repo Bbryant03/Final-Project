@@ -15,7 +15,7 @@
     --font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-button.left, button.right {
+div.left, div.right {
     width: 50%;
     height: 100%;
     position: absolute;
@@ -28,13 +28,13 @@ button.left, button.right {
     background-position: center top;
 }
 
-button.left {
+div.left {
     left: 0;
     background: url("img/truck.png");
     text-shadow: 0px 0px 3px var(--gold-color), 0px 0px 3px var(--gold-color);
 }
 
-button.right {
+div.right {
     right: 0;
     background: url("img/corvette.png");
     text-shadow: 0px 0px 3px var(--red-color), 0px 0px 3px var(--red-color);
