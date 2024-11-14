@@ -4,11 +4,16 @@ html.index {
     overflow: hidden;
 }
 
+:root {
+	--font-size: 2rem;
+	--font-family: 'Courier New', Courier, monospace;
+}
+
 body.index {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: 'Roboto Mono', monospace;
+    font-family: var(--font-family);
 }
 
 div h1:hover {
@@ -25,30 +30,26 @@ div.left, div.right {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
 }
 
 div.left {
     left: 0;
     background: url("img/truck.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center top;
-    border: none;
+    
 }
 
 div.right {
     right: 0;
     background: url("img/corvette.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center top;
 }
 
 div.title {
-    font-family: Roboto, sans;
+    font-family: var(--font-family);
     text-align: center;
-    font-size: 2rem; /* Use relative units */
-    animation: totalFade 5s ease-in-out;
+    font-size: var(--font-size);
 }
 
 div.left.title {
@@ -62,17 +63,4 @@ div.right.title {
 div.title a {
     color: black;
     text-decoration: none;
-}
-
-/* Media Queries for responsiveness */
-@media (max-width: 768px) {
-    .title {
-        font-size: 1.5rem; /* Adjust font size for smaller screens */
-    }
-}
-
-@media (max-width: 480px) {
-    .title {
-        font-size: 1.2rem; /* Further adjust font size for very small screens */
-    }
 }
