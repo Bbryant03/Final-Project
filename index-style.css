@@ -1,49 +1,66 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    box-sizing: border-box;
-    background-color: black;
-    color: black;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	background-color: black;
+	color: black;
 }
 
 :root {
-    --gold-color: #bf8900;
-    --red-color: #ae0000;
-    --font-size: 2rem;
-    --font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	--gold-color: #bf8900;
+	--red-color: #ae0000;
+	--font-size: 2rem;
+	--font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html {
+	height: 100%;
+	overflow: hidden;
 }
 
 button.left, button.right {
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center top;
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
 }
 
 button.left {
-    left: 0;
-    background: url("img/truck.png");
-    text-shadow: 0px 0px 3px var(--gold-color), 0px 0px 3px var(--gold-color);
+	left: 0;
+	background: url("img/truck.png");
 }
 
 button.right {
-    right: 0;
-    background: url("img/corvette.png");
-    text-shadow: 0px 0px 3px var(--red-color), 0px 0px 3px var(--red-color);
+	right: 0;
+	background: url("img/corvette.png");
+	}
+
+button > a:hover {
+	opacity: 0.6;
+	transition: opacity 0.5s;
 }
 
 .title {
-    font-family: var(--font-family);
-    text-align: center;
-    font-size: var(--font-size);
+	font-family: var(--font-family);
+	text-align: center;
+	font-size: var(--font-size);
+	animation: 5s ease-in-out;
+	text-decoration: none;
+	color: black;
+}
+
+div.left.title {
+	text-shadow: 0px 0px 3px var(--gold-color), 0px 0px 3px var(--gold-color);
+}
+
+div.right.title {
+	text-shadow: 0px 0px 3px var(--red-color), 0px 0px 3px var(--red-color);
 }
