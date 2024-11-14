@@ -1,12 +1,12 @@
+:root {
+	--font-size: 2rem;
+	--font-family: 'Courier New', Courier, monospace;
+}
+
 html.index {
     background: black;
     height: 100%;
     overflow: hidden;
-}
-
-:root {
-	--font-size: 2rem;
-	--font-family: 'Courier New', Courier, monospace;
 }
 
 body.index {
