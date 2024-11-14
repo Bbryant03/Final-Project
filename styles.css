@@ -38,7 +38,7 @@ h1:hover {
 
 .left {
     left: 0;
-    background: url("img/Truck Tall 1.png");
+    background: url("/img/truck.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -46,7 +46,7 @@ h1:hover {
 
 .right {
     right: 0;
-    background: url("img/Corvette Tall Back.png");
+    background: url("/img/corvette.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
