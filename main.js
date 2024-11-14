@@ -1,3 +1,5 @@
+HBCdirect.onClick = function()
+
 
 // Scroll to top
 function scrollToTop() {
