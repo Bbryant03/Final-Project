@@ -33,6 +33,7 @@ h1:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
+    border: none;
 }
 
 .right {
