@@ -1,4 +1,11 @@
-HBCdirect.onClick = function()
+
+document.getElementById("HBCdirect").addEventListener("click", function() {
+    window.location.href = "HBC/about.html"; // Replace with your target URL
+});
+
+document.getElementById("DTdirect").addEventListener("click", function() {
+    window.location.href = "DT/home.html"; // Replace with your target URL
+});
 
 
 // Scroll to top
@@ -15,7 +22,7 @@ function scrollToTop() {
 }
 scrollToTop()
 
-// Hide when scroll to top at hero
+// Hide when scroll to top 
 window.addEventListener('load', function () {
     function showScrollToTop() {
         const backToTop = document.getElementById('btnup');
@@ -88,13 +95,12 @@ window.addEventListener('resize', function () {
 })
 
 
-// click hamburger, show menu
+// Click hamburger, show menu
 const btnMenu = document.querySelector('.header__cta-hamburger .bars'),
     nav = document.querySelector('.nav');
 header = document.querySelector('.header');
 function menuMobileHandle() {
     btnMenu.addEventListener('click', function () {
-        // console.log(1);
         this.classList.toggle('active')
         nav.classList.toggle('active')
         header.classList.toggle('active')
@@ -106,14 +112,12 @@ function menuMobileHandle() {
         header.classList.toggle('active')
 
     }
-    // khi resize window
     window.addEventListener('resize', function () {
         let wWindow = window.innerWidth
         if (wWindow > 991.98) {
             hideNav()
         }
     })
-    console.log('it there')
 }
 menuMobileHandle()
 
@@ -326,7 +330,7 @@ function validateForm() {
         if (valueFullName === '') {
             showError(fullname, 'Please input your full name');
             isError = true;
-        } else if (!isValidFullname(valueFullName)) { // Corrected function call
+        } else if (!isValidFullname(valueFullName)) {
             showError(fullname, 'Please input first & last name with space');
             isError = true;
         } else {
@@ -357,7 +361,7 @@ function validateForm() {
             dataCustomers.push(valueSubject);
         }
 
-        // push company if any
+        // Push company if any
         const valueCompany = company.value.trim();
         if (valueCompany !== '') {
             dataCustomers.push(valueCompany);
@@ -378,17 +382,15 @@ function validateForm() {
     }
 
 
-    // Submit Form and check all input
-    form.addEventListener('submit', function (e) {
-        e.preventDefault() //Chan chuyen trang
-        const isChecked = checkInputs();
-        console.log(isChecked)
-        if (!isChecked) {
-            // Call API right here
-            console.log('resubmit')
-            // gui data len server
-        }
-    })
+    // // Submit Form and check all input
+    // form.addEventListener('submit', function (e) {
+    //     e.preventDefault();
+    //     const isChecked = checkInputs();
+    //     console.log(isChecked)
+    //     if (!isChecked) {
+    //         console.log('resubmit')
+    //     }
+    // })
 }
 validateForm()
 
