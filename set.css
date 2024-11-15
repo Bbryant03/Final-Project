@@ -108,6 +108,9 @@
     :root {
       --max-width-container: 100%; } }
 
+html {
+  font-size: 62.5%;
+}
 
 body {
   background: var(--dark-cl);
