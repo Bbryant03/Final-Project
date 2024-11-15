@@ -16,7 +16,6 @@
   --grey-light-cl: rgba(255, 255, 255, 0.2);
   --grey-social-cl: rgba(255, 255, 255, 0.5);
   --grey-footer: rgba(255, 255, 255, 0.3);
-  --offwhite-cl: #d9d9d9;
   --fs-h1: 6.6rem;
   --lh-h1: 8rem;
   --ls-h1: -1px;
@@ -64,9 +63,7 @@
   --height-header: 100px;
   --height-button: 70px;
   --height-button-header: 56px;
-  --pd-section: 120px;
   --duration: 0.4s;
-  --cubic: cubic-bezier(0.59, 0.29, 0.15, 0.93);
 }
 
 @media (max-width: 1199.98px) {
