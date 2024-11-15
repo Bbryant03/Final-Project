@@ -1437,7 +1437,7 @@ pre {
 }
 
 .header .container .header__menu-logo {
-  width: 50px;
+  width: 1rem;
   height: auto;
   margin-right: 37px;
   position: relative;
