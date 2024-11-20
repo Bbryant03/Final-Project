@@ -2573,12 +2573,8 @@ pre {
   overflow: hidden;
 }
 
-.main .about .background {
-  background: radial-gradient(#836100, #000);
-  position: absolute;
-  top: -5%;
-  right: -10%;
-  z-index: 100;
+.main .background {
+  background: radial-gradient(circle at 65%, #836100, #000 75%);
 }
 
 @media (max-width: 991.98px) {
