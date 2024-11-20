@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "flickity": "^3.0.0"
+    "flickity": "^3.0.0",
+    "sass": "^1.81.0"
   }
 }
