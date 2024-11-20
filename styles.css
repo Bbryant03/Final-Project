@@ -2574,6 +2574,7 @@ pre {
 }
 
 .main .about .background {
+  background: radial-gradient(#836100, #000);
   position: absolute;
   top: -5%;
   right: -10%;
