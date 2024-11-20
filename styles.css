@@ -2578,7 +2578,7 @@ pre {
   position: absolute;
   top: -5%;
   right: -10%;
-  z-index: 0;
+  z-index: 100;
 }
 
 @media (max-width: 991.98px) {
