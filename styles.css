@@ -1,3 +1,5 @@
+@import url(/node_modules/flickity/dist/flickity.css);
+
 /* Core variables and mixins*/
 * {
   margin: 0;
