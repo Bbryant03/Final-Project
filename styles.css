@@ -79,9 +79,9 @@ sup {
   --gap: 26px;
   --border: 40px;
   /* Colors Variable Demo*/
-  --main-cl: #000000;
+  --dark-cl: #000000;
   --middle-cl: #A8A6A0; 
-  --dark-cl: #473100;
+  --main-cl: #473100;
   --dark-gold: #8E6100;
   --white-cl: #ffffff;
   --black-cl: #141414;
