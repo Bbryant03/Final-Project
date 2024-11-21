@@ -79,10 +79,10 @@ sup {
   --gap: 26px;
   --border: 40px;
   /* Colors Variable Demo*/
-  --main-cl: #1d1d1d;
-  --middle-cl: #888888;
-  --dark-cl: #000000;
-  --dark-blue: #6d4a00;
+  --main-cl: #000000;
+  --middle-cl: #A8A6A0; 
+  --dark-cl: #473100;
+  --dark-gold: #8E6100;
   --white-cl: #ffffff;
   --black-cl: #141414;
   --grey-dark-cl: rgba(255, 255, 255, 0.1);
@@ -416,7 +416,7 @@ blockquote {
   font-size: 22px;
   line-height: 38px;
   font-family: dsm;
-  background: var(--dark-blue);
+  background: var(--dark-gold);
   color: var(--white-cl);
   border-radius: 30px;
 }
@@ -1689,7 +1689,7 @@ pre {
 
 .footer {
   padding: 56px 0 32px 0;
-  background: var(--dark-blue);
+  background: var(--dark-gold);
 }
 
 .footer__top {
@@ -2080,7 +2080,7 @@ pre {
   display: grid;
   height: 100%;
   width: 100%;
-  background: var(--dark-blue);
+  background: var(--dark-gold);
   border-radius: 40px;
   padding: 48px 23px;
 }
@@ -2424,7 +2424,7 @@ pre {
 }
 
 .main .reviews__slider-item {
-  background: var(--dark-blue);
+  background: var(--dark-gold);
   padding: 65px 50px;
   width: calc(var(--max-width-container) / 2 - (var(--gap) / 2) - var(--gap));
   min-width: 335px;
@@ -2611,7 +2611,7 @@ pre {
 }
 
 .main .about .container .about__list-item {
-  background: var(--dark-blue);
+  background: var(--dark-gold);
   border-radius: 40px;
   padding: 58px 32px;
   display: flex;
@@ -2783,7 +2783,7 @@ pre {
 }
 
 .main .ourteam__list-item {
-  background: var(--dark-blue);
+  background: var(--dark-gold);
   padding: 24px;
   border-radius: var(--border);
   min-width: 374px;
@@ -2857,7 +2857,7 @@ pre {
 }
 
 .main .pricing__package-item {
-  background: var(--dark-blue);
+  background: var(--dark-gold);
   padding: 48px 30px;
   border-radius: var(--border);
 }
@@ -2912,7 +2912,7 @@ pre {
   align-items: center;
   justify-content: space-between;
   border-radius: var(--border);
-  background: var(--dark-blue);
+  background: var(--dark-gold);
   overflow: hidden;
 }
 
@@ -3411,7 +3411,7 @@ pre {
   margin-top: 12px;
   padding: 0 25px;
   height: 68px;
-  background: var(--dark-blue);
+  background: var(--dark-gold);
 }
 
 .main .getintouch__content-form .form-row .form-group input.--error {
@@ -3459,7 +3459,7 @@ pre {
   padding: 20.5px 25px;
   height: 162px;
   border: 1px solid var(--dark-cl);
-  background: var(--dark-blue);
+  background: var(--dark-gold);
 }
 
 .main .getintouch__content-form .form-row:nth-child(3) textarea.--error {
