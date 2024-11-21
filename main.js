@@ -1,13 +1,3 @@
-
-document.getElementById("HBCdirect").addEventListener("click", function() {
-    window.location.href = "HBC/about.html"; // Replace with your target URL
-});
-
-document.getElementById("DTdirect").addEventListener("click", function() {
-    window.location.href = "DT/home.html"; // Replace with your target URL
-});
-
-
 // Scroll to top
 function scrollToTop() {
     const backToTop = document.getElementById('btnup');
@@ -20,7 +10,7 @@ function scrollToTop() {
         });
     }
 }
-scrollToTop()
+scrollToTop();
 
 // Hide when scroll to top 
 window.addEventListener('load', function () {
