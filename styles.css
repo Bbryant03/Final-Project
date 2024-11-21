@@ -79,9 +79,9 @@ sup {
   --gap: 26px;
   --border: 40px;
   /* Colors Variable Demo*/
-  --dark-cl: #000000;
+  --main-cl: #000000;
   --middle-cl: #A8A6A0; 
-  --main-cl: #473100;
+  --dark-brown: #473100;
   --dark-gold: #8E6100;
   --white-cl: #ffffff;
   --black-cl: #141414;
@@ -196,7 +196,7 @@ html {
 }
 
 body {
-  background: var(--dark-cl);
+  background: var(--main-cl);
   width: 100%;
   max-width: var(--max-width-page);
   margin: auto;
@@ -1520,7 +1520,7 @@ pre {
   content: "";
   height: 66px;
   width: 1px;
-  background: var(--dark-cl);
+  background: var(--main-cl);
   display: block;
   position: absolute;
   right: -32px;
@@ -1608,16 +1608,16 @@ pre {
 }
 
 .header.scroll {
-  background: var(--dark-cl);
+  background: var(--main-cl);
 }
 
 .header.active {
-  background: var(--dark-cl);
+  background: var(--main-cl);
 }
 
 @media (max-width: 991.98px) {
   .header {
-    background: var(--dark-cl);
+    background: var(--main-cl);
   }
 }
 
@@ -1628,7 +1628,7 @@ pre {
   height: calc(100vh - var(--height-header));
   position: fixed;
   left: 0;
-  background: var(--dark-cl);
+  background: var(--main-cl);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3458,7 +3458,7 @@ pre {
   margin-top: 12px;
   padding: 20.5px 25px;
   height: 162px;
-  border: 1px solid var(--dark-cl);
+  border: 1px solid var(--main-cl);
   background: var(--dark-gold);
 }
 
