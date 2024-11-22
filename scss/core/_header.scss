@@ -56,8 +56,8 @@
         position: relative;
         &:after {
           content: "";
-          height: 66px; 
-          width: 1px; 
+          height: auto; 
+          width: 150px; 
           background: var(--dark-cl); 
           display: block;
           position: absolute;
