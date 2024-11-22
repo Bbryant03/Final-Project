@@ -1,49 +1,38 @@
-// MIXINS
-// Laptop lớn, screen <= 1440px (tuỳ yêu cầu thiết kế)
 @mixin lg {
-	@media screen and (max-width: 1440px) {
+	@media (max-width: 1440px) {
 		@content;
 	}
 }
-// Laptop nhỏ hoặc tablet lớn, screen < 1200px
 @mixin md {
-	@media screen and (max-width: 1199.98px) {
+	@media (max-width: 1199.98px) {
 		@content;
 	}
 }
-// Tablets vừa, screen <= 992px
 @mixin sm {
-	@media screen and (max-width: 991.98px) {
+	@media (max-width: 991.98px) {
 		@content;
 	}
 }
-// Tablets nhỏ hoặc Phones quay ngang, screen < 768px
 @mixin xs {
-	@media screen and (max-width: 767.98px) {
+	@media (max-width: 767.98px) {
 		@content;
 	}
 }
-// Phones lớn, screen < 576px
 @mixin xxs {
-	@media screen and (max-width: 575.98px) {
+	@media (max-width: 575.98px) {
 		@content;
 	}
 }
-// Phones nhỏ, screen < 376px - tuỳ yêu cầu
 @mixin xxxs {
-	@media screen and (max-width: 375.98px) {
+	@media (max-width: 375.98px) {
 		@content;
 	}
 }
-
-// Landscape
 @mixin landscape {
-	@media screen and (orientation: landscape) {
+	@media (orientation: landscape) {
 		@content;
 	}
 }
-
-// @media max, min
 @mixin maxW($args) {
 	@media (max-width: $args) {
 		@content;
@@ -67,18 +56,6 @@
 
 // CSS Animation - Transition
 @mixin keyframes($animation-name) {
-	@-webkit-keyframes #{$animation-name} {
-		@content;
-	}
-	@-moz-keyframes #{$animation-name} {
-		@content;
-	}
-	@-ms-keyframes #{$animation-name} {
-		@content;
-	}
-	@-o-keyframes #{$animation-name} {
-		@content;
-	}
 	@keyframes #{$animation-name} {
 		@content;
 	}
@@ -86,46 +63,22 @@
 
 @mixin animation($str) {
 	animation: #{$str};
-	-webkit-animation: #{$str};
-	-moz-animation: #{$str};
-	-ms-animation: #{$str};
-	-o-animation: #{$str};
 }
 @mixin animation-delay($str) {
 	animation-delay: #{$str};
-	-webkit-animation-delay: #{$str};
-	-moz-animation-delay: #{$str};
-	-ms-animation-delay: #{$str};
-	-o-animation-delay: #{$str};
 }
 @mixin transform($args) {
 	transform: $args;
-	-webkit-transform: $args;
-	-moz-transform: $args;
-	-ms-transform: $args;
-	-o-transform: $args;
 }
 
 @mixin transform-origin($args) {
 	transform-origin: $args;
-	-webkit-transform-origin: $args;
-	-moz-transform-origin: $args;
-	-ms-transform-origin: $args;
-	-o-transform-origin: $args;
 }
 @mixin transition-delay($args) {
 	transition-delay: $args;
-	-webkit-transition-delay: $args;
-	-moz-transition-delay: $args;
-	-ms-transition-delay: $args;
-	-o-transition-delay: $args;
 }
 @mixin transition($args) {
 	transition: $args;
-	-webkit-transition: $args;
-	-moz-transition: $args;
-	-ms-transition: $args;
-	-o-transition: $args;
 }
 
 // CSS Text
@@ -153,7 +106,7 @@
 
 // Frame Img
 @mixin frameimg($w, $h: $w) {
-	aspect-ratio: $w/$h;
+	aspect-ratio: calc($w/$h);
 	position: relative;
 	overflow: hidden;
 }
@@ -198,9 +151,9 @@
 }
 // Overflow Text Dots
 @mixin overtext($lines) {
-	display: -webkit-inline-box;
-	-webkit-line-clamp: $lines;
-	-webkit-box-orient: vertical;
+	display: inline-flex;
+	line-clamp: $lines;
+	box-orient: vertical;
 	text-overflow: ellipsis;
 	overflow: hidden;
 }

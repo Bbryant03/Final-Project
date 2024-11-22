@@ -105,6 +105,7 @@
       }
     }
     .news {
+      padding: 120px 0px;
       @include sm {
         padding-top: 80px;
         .textbox.--align-center {
@@ -115,7 +116,6 @@
           }
         }
       }
-      padding: 120px 0px;
     }
   
 

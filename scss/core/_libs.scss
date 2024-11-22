@@ -24,20 +24,15 @@ https://flickity.metafizzy.co
   
   .flickity-enabled.is-draggable {
     -webkit-tap-highlight-color: transparent;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    user-select: none;
   }
   
   .flickity-enabled.is-draggable .flickity-viewport {
     cursor: move;
-    cursor: -webkit-grab;
     cursor: grab;
   }
   
   .flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
-    cursor: -webkit-grabbing;
     cursor: grabbing;
   }
   
@@ -67,7 +62,6 @@ https://flickity.metafizzy.co
   .flickity-button:disabled {
     opacity: 0.3;
     cursor: auto;
-    /* prevent disabled button from capturing pointer up event. #716 */
     pointer-events: none;
   }
   
@@ -82,13 +76,11 @@ https://flickity.metafizzy.co
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    /* vertically center */
     transform: translateY(-50%);
   }
   
   .flickity-prev-next-button.previous { left: 10px; }
   .flickity-prev-next-button.next { right: 10px; }
-  /* right to left */
   .flickity-rtl .flickity-prev-next-button.previous {
     left: auto;
     right: 10px;
@@ -144,7 +136,7 @@ https://flickity.metafizzy.co
     margin-right: 10px;
     background: #8C8;
     border-radius: 5px;
-    counter-increment: carousel-cell;
+    counter-increment: counter(carousel-cell);
   }
   
   /* cell number */

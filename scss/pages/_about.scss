@@ -64,20 +64,19 @@
           grid-template-columns: repeat(12, 1fr);
           grid-template-rows: 1fr 1fr;
           gap: var(--gap);
-          // overflow: hidden;
           .textbox.--top {
-            grid-column: 1/8;
-            grid-row: 1/2;
+            grid-column: calc(1/8);
+            grid-row: calc(1/2);
             padding-right: 76px;
           }
           .textbox.--bottom {
-            grid-column: 1/8;
-            grid-row: 2/3;
+            grid-column: calc(1/8);
+            grid-row: calc(2/3);
             padding-right: 76px;
           }
           .mission__thumb {
-            grid-column: 8/13;
-            grid-row: 1/3;
+            grid-column: calc(8/13);
+            grid-row: calc(1/3);
             position: absolute;
             left: 0;
             top: 0;

@@ -554,14 +554,14 @@
       &-item {
         border-radius: 40px;
         padding: 48px 52px 0px 51px;
+        aspect-ratio: calc(563/775);
+        max-height: 775px;
+        overflow: hidden;
+        background: var(--middle-cl);
         @include sm {
           padding: 32px 33px 0 32px;
           min-height: 500px;
         }
-        aspect-ratio: 563/775;
-        max-height: 775px;
-        overflow: hidden;
-        background: var(--middle-cl);
         .textbox {
           .btnmain {
             margin-top: 32px;

@@ -84,7 +84,7 @@
           }
         }
         &-mail {
-          grid-column: 9/13;
+          grid-column: calc(9/13);
         }
         @include sm {
           display: block;
