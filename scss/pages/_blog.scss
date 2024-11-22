@@ -34,7 +34,7 @@
               color: var(--white-cl);
               @include transform(transition(--duration));
               &:hover {
-                color: var(--main-cl);
+                color: var(--dark-cl);
               }
             }
           }

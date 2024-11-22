@@ -37,9 +37,9 @@
                 @include transition(var(--duration) transform);
               }
               &:hover {
-                color: var(--main-cl);
+                color: var(--dark-cl);
                 &:after {
-                  background: var(--main-cl);
+                  background: var(--dark-cl);
                 }
               }
             }

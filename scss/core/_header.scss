@@ -58,7 +58,7 @@
           content: "";
           height: auto; 
           width: 150px; 
-          background: var(--dark-cl); 
+          background: var(--main-cl); 
           display: block;
           position: absolute;
           right: -32px;
@@ -139,12 +139,12 @@
     }
   }
   &.scroll {
-    background: var(--dark-cl);
+    background: var(--main-cl);
   }
   &.active {
-    background: var(--dark-cl);
+    background: var(--main-cl);
   }
   @include sm{
-    background: var(--dark-cl);
+    background: var(--main-cl);
   }
 }

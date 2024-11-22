@@ -5,7 +5,7 @@
   height: calc(100vh - var(--height-header));
   position: fixed;
   left: 0;
-  background: var(--dark-cl);
+  background: var(--main-cl);
   @include mid(true);
   opacity: 0;
   visibility: hidden;
