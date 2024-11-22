@@ -155,7 +155,7 @@
           display: grid;
           height: 100%;
           width: 100%;
-          background: var(--dark-blue);
+          background: var(--gold);
           border-radius: 40px;
           padding: 48px 23px;
           @include md {
@@ -417,7 +417,7 @@
       }
 
       &-item {
-        background: var(--dark-blue);
+        background: var(--gold);
         padding: 65px 50px;
         width: calc(
           var(--max-width-container) / 2 - (var(--gap) / 2) - var(--gap)

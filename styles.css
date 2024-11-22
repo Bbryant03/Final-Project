@@ -90,7 +90,7 @@ sup {
   --main-cl: #000;
   --middle-cl: #A8A6A0;
   --dark-cl: #473100;
-  --dark-blue: #8E6100;
+  --gold: #8E6100;
   --white-cl: #ffffff;
   --black-cl: #141414;
   --grey-dark-cl: rgba(255, 255, 255, 0.1);
@@ -391,7 +391,7 @@ blockquote {
   font-size: 22px;
   line-height: 38px;
   font-family: dsm;
-  background: var(--dark-blue);
+  background: var(--gold);
   color: var(--white-cl);
   border-radius: 30px;
 }
@@ -1526,7 +1526,7 @@ pre {
 
 .footer {
   padding: 56px 0 32px 0;
-  background: var(--dark-blue);
+  background: var(--gold);
 }
 .footer__top {
   display: flex;
@@ -1895,7 +1895,7 @@ pre {
   display: grid;
   height: 100%;
   width: 100%;
-  background: var(--dark-blue);
+  background: var(--gold);
   border-radius: 40px;
   padding: 48px 23px;
 }
@@ -2179,7 +2179,7 @@ pre {
   opacity: 1;
 }
 .homepage .reviews__slider-item {
-  background: var(--dark-blue);
+  background: var(--gold);
   padding: 65px 50px;
   width: calc(var(--max-width-container) / 2 - var(--gap) / 2 - var(--gap));
   min-width: 335px;
@@ -2393,7 +2393,7 @@ pre {
   gap: var(--gap);
 }
 .about .container .about__list-item {
-  background: var(--dark-blue);
+  background: var(--gold);
   border-radius: 40px;
   padding: 58px 32px;
   display: flex;
@@ -2538,7 +2538,7 @@ pre {
   }
 }
 .ourteam__list-item {
-  background: var(--dark-blue);
+  background: var(--gold);
   padding: 24px;
   border-radius: var(--border);
   min-width: 374px;
@@ -2607,7 +2607,7 @@ pre {
   }
 }
 .pricing__package-item {
-  background: var(--dark-blue);
+  background: var(--gold);
   padding: 48px 30px;
   border-radius: var(--border);
 }
@@ -2659,7 +2659,7 @@ pre {
   align-items: center;
   justify-content: space-between;
   border-radius: var(--border);
-  background: var(--dark-blue);
+  background: var(--gold);
   overflow: hidden;
 }
 .blog__list .content {
@@ -3093,7 +3093,7 @@ pre {
   margin-top: 12px;
   padding: 0 25px;
   height: 68px;
-  background: var(--dark-blue);
+  background: var(--gold);
 }
 .getintouch__content-form .form-row .form-group input.--error {
   border: 1.5px solid red;
@@ -3135,7 +3135,7 @@ pre {
   padding: 20.5px 25px;
   height: 162px;
   border: 1px solid var(--main-cl);
-  background: var(--dark-blue);
+  background: var(--gold);
 }
 .getintouch__content-form .form-row:nth-child(3) textarea.--error {
   border: 1.5px solid red;
