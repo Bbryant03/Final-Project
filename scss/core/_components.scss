@@ -535,7 +535,7 @@ p {
               @include overtext(2);
               @include transition(var(--duration));
               &:hover {
-                color: var(--gray-cl);
+                color: var(--grey-cl);
               }
             }
           }
@@ -612,7 +612,7 @@ p {
               @include overtext(2);
               @include transition(var(--duration));
               &:hover {
-                color: var(--gray-cl);
+                color: var(--grey-cl);
               }
             }
           }
@@ -689,7 +689,7 @@ p {
               @include overtext(2);
               @include transition(var(--duration));
               &:hover {
-                color: var(--gray-cl);
+                color: var(--grey-cl);
               }
             }
           }
