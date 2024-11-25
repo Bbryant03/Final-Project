@@ -74,52 +74,10 @@
         }
       }
     }
-    &-download {
-      grid-column: 8/13;
-      min-width: 485px;
-      background: var(--grey-dark-cl);
-      border-radius: 40px;
-      padding: 44px 32px 44px 34px;
-      .downloadbtn {
-        max-width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 16px;
-        margin-top: 24px;
-        @include maxW(1240px) {
-          flex-direction: column;
-          .btnmain {
-            width: 100%;
-          }
-        }
-      }
-    }
 
     @include sm{
       display: block;
       padding: 45px 0 59px 0;
-      &-download {
-        margin-top: 56px;
-       min-width: initial;
-        .downloadbtn{
-          .btnmain {
-            width: 100%;
-          }
-        }
-      }
-    }
-    @include xs{
-      &-download {
-        .downloadbtn{
-          display: flex;
-          justify-content: space-between;
-          flex-direction: column;
-          .btnmain {
-            width: 100%;
-          }
-        }
-      }
     }
   }
 
