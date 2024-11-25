@@ -9,6 +9,9 @@
       max-height: 980px;
       min-height: 650px;
       .hero__blurbg {
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(circle at 65%, var(--gold) 0%, var(--main-cl) 60%);
         z-index: 0;
         position: absolute;
         top: 0;
@@ -124,7 +127,6 @@
   .portfolio {
     position: relative;
     display: flex;
-    // overflow: hidden;
     .background {
       position: absolute;
       top: -5%;
