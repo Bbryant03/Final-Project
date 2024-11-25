@@ -1372,12 +1372,15 @@ pre {
   transform-origin: left;
 }
 .header .container .header__menu-logo {
+  width: 60px;
+  height: auto;
   margin-right: 37px;
   position: relative;
 }
 .header .container .header__menu-logo:after {
   content: "";
-  width: 60px;
+  height: 1px;
+  width: 66px;
   background: var(--main-cl);
   display: block;
   position: absolute;
