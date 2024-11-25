@@ -2,7 +2,7 @@ function hbcClick() {
     const hbc = document.getElementById('HBCDirect');
     if (hbc) {
         hbc.addEventListener('click', function() {
-            location.assign("HBC/home.html");
+            window.location = 'HBC/home.html';
         })
     }
 }
