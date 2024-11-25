@@ -16,10 +16,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        @include transform(translate(-50%, -50%));
-        img {
-          @include midimg;
-        }
+        opacity: 0.3;
       }
       .hero__pic {
         display: flex;
