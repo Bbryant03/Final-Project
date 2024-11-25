@@ -1389,7 +1389,7 @@ pre {
 }
 @media (max-width: 991.98px) {
   .header .container .header__menu-logo {
-    width: 50px;
+    width: 150px;
   }
 }
 .header .container .header__cta-hamburger {
