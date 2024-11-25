@@ -1,3 +1,7 @@
+function hbcClick() {
+    const hbc = document.getElementById('');
+}
+
 // Scroll to top
 function scrollToTop() {
     const backToTop = document.getElementById('btnup');
