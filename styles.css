@@ -1377,8 +1377,7 @@ pre {
 }
 .header .container .header__menu-logo:after {
   content: "";
-  height: 66px;
-  width: 1px;
+  width: 60px;
   background: var(--main-cl);
   display: block;
   position: absolute;
