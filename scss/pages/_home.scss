@@ -16,7 +16,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        opacity: 0.3;
+        opacity: 0.6;
       }
       .hero__pic {
         display: flex;
@@ -29,15 +29,9 @@
         @include transform(translateY(-50%));
         .planetearth {
           position: absolute;
-          img {
-            @include midimg;
-          }
         }
         .planetbg {
           position: absolute;
-          img {
-            @include midimg;
-          }
         }
       }
       .hero__content {
