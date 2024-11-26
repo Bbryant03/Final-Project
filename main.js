@@ -1,3 +1,13 @@
+function hbcClick() {
+    const hbc = document.getElementById('HBCDirect');
+    if (hbc) {
+        hbc.addEventListener('click', function() {
+            window.location = 'HBC/home.html';
+        })
+    }
+}
+hbcClick();
+
 // Scroll to top
 function scrollToTop() {
     const backToTop = document.getElementById('btnup');
