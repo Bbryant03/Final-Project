@@ -1801,6 +1801,7 @@ pre {
   top: -5%;
   right: -10%;
   z-index: 0;
+  background: radial-gradient(circle at 50%, var(--gold) 0%, var(--main-cl) 60%);
 }
 @media (max-width: 991.98px) {
   .homepage .portfolio .background {
