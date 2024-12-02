@@ -1780,6 +1780,7 @@ pre {
   margin-bottom: 35px;
 }
 .homepage .sponsor .container .bottom-company {
+  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: space-between;
