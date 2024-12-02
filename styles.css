@@ -1476,6 +1476,8 @@ pre {
 }
 .nav__blurbg {
   z-index: 300;
+  height: var(--height-header);
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1688,6 +1690,8 @@ pre {
   .homepage .hero .hero__blurbg {
     z-index: 0;
     position: absolute;
+    height: 100vh;
+    width: 100%;
     top: 0;
     left: 0;
     background: radial-gradient(circle at 50%, var(--gold) 0%, var(--main-cl) 60%);
@@ -1714,7 +1718,9 @@ pre {
   }
   .homepage .hero .hero__pic .planetbg {
     position: absolute;
-    background: radial-gradient(circle at 50%, var(--gold) 0%, var(--main-cl) 60%);
+    height: 1310px;
+    width: 1266px;
+    background: radial-gradient(var(--gold) 0%, var(--main-cl) 60%);
     opacity: 0.6;
   }
   .homepage .hero .hero__content {
