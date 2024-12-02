@@ -9,7 +9,7 @@
       max-height: 980px;
       min-height: 650px;
       .hero__blurbg {
-        z-index: 0;
+        z-index: -1;
         position: absolute;
         height: 100vh;
         width: 100%;
@@ -35,6 +35,7 @@
           }
         }
         .planetbg {
+          z-index: -1;
           position: absolute;
           height: 1310px;
           width: 1266px;

@@ -1688,7 +1688,7 @@ pre {
     min-height: 650px;
   }
   .homepage .hero .hero__blurbg {
-    z-index: 0;
+    z-index: -1;
     position: absolute;
     height: 100vh;
     width: 100%;
@@ -1717,6 +1717,7 @@ pre {
     object-fit: cover;
   }
   .homepage .hero .hero__pic .planetbg {
+    z-index: -1;
     position: absolute;
     height: 1310px;
     width: 1266px;
