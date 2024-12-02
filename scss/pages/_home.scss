@@ -13,10 +13,9 @@
         position: absolute;
         top: 0;
         left: 0;
+        background: radial-gradient(circle at 50%, var(--gold) 0%, var(--main-cl) 60%);
+        opacity: 0.6;
         @include transform(translate(-50%, -50%));
-        img {
-          @include midimg;
-        }
       }
       .hero__pic {
         display: flex;
