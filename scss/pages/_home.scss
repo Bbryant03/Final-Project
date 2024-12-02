@@ -34,9 +34,8 @@
         }
         .planetbg {
           position: absolute;
-          img {
-            @include midimg;
-          }
+          background: radial-gradient(circle at 50%, var(--gold) 0%, var(--main-cl) 60%);
+          opacity: 0.6;
         }
       }
       .hero__content {
