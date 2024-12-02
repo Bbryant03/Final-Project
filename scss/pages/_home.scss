@@ -63,6 +63,8 @@
         display: flex;
         position: absolute;
         right: -50%;
+        background: radial-gradient(circle at 50%, var(--gold) 0%, var(--main-cl) 60%);
+        opacity: 0.6;
       }
       &__content {
         margin-top: 45px;
@@ -86,6 +88,7 @@
         }
         .planetbg {
           display: none;
+          
         }
       }
     }
