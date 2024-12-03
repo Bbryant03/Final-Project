@@ -29,7 +29,6 @@ div.left, div.right {
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -47,7 +46,7 @@ div.right {
 }
 
 div.title {
-    font-family: var(--font-family);
+    font-family: 'dsr';
     text-align: center;
     font-size: var(--font-size);
     text-transform: uppercase;
