@@ -1711,7 +1711,7 @@ pre {
     height: 1310px;
     width: 1266px;
     background: radial-gradient(var(--gold) 0%, var(--main-cl) 60%);
-    opacity: 0.6;
+    opacity: 1;
   }
   .homepage .hero .hero__content {
     z-index: 2;
