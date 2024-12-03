@@ -1803,8 +1803,8 @@ pre {
   display: flex;
 }
 .homepage .portfolio .background {
-  height: 2400;
-  width: 2400;
+  height: 2400px;
+  width: 2400px;
   background: radial-gradient(circle at 55%, var(--gold) 0%, var(--main-cl) 60%);
   opacity: 0.5;
   position: absolute;
@@ -1834,7 +1834,7 @@ pre {
   gap: var(--gap);
 }
 .homepage .portfolio .container .portfolio__list-item {
-  aspect-ratio: 1.1016949153;
+  aspect-ratio: 325/295;
   display: grid;
   height: 100%;
   width: 100%;
@@ -2076,7 +2076,7 @@ pre {
 .homepage .reviews .background {
   height: 100vh;
   width: 100%;
-  background: radial-gradient(circle at 80%, var(--gold) 0%, var(--main-cl) 60%);
+  background: radial-gradient(circle at 70%, var(--gold) 0%, var(--main-cl) 60%);
   opacity: 0.8;
   position: absolute;
   transform: translateX(50%);
