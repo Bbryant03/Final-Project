@@ -1687,17 +1687,6 @@ pre {
     max-height: 980px;
     min-height: 650px;
   }
-  .homepage .hero .hero__blurbg {
-    z-index: -1;
-    position: absolute;
-    height: 100vh;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: radial-gradient(circle at 50%, var(--gold) 0%, var(--main-cl) 60%);
-    opacity: 0.6;
-    transform: translate(-50%, -50%);
-  }
   .homepage .hero .hero__pic {
     display: flex;
     align-items: center;
@@ -1717,7 +1706,7 @@ pre {
     object-fit: cover;
   }
   .homepage .hero .hero__pic .planetbg {
-    z-index: -1;
+    z-index: 0;
     position: absolute;
     height: 1310px;
     width: 1266px;
@@ -1747,7 +1736,6 @@ pre {
   .homepage .hero__blurbg {
     display: flex;
     position: absolute;
-    right: -50%;
     background: radial-gradient(circle at 50%, var(--gold) 0%, var(--main-cl) 60%);
     opacity: 0.6;
   }
@@ -1781,7 +1769,7 @@ pre {
   margin-bottom: 35px;
 }
 .homepage .sponsor .container .bottom-company {
-  z-index: 2;
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
