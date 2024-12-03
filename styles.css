@@ -1801,6 +1801,8 @@ pre {
   display: flex;
 }
 .homepage .portfolio .background {
+  height: auto;
+  width: auto;
   background: radial-gradient(circle at 55%, var(--gold) 0%, var(--main-cl) 60%);
   opacity: 0.6;
   position: absolute;
