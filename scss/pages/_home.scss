@@ -121,8 +121,8 @@
     position: relative;
     display: flex;
     .background {
-      height: 100vh;
-      width: 100%;
+      height: 2400;
+      width: 2400;
       background: radial-gradient(circle at 55%, var(--gold) 0%, var(--main-cl) 60%);
       opacity: 0.5;
       position: absolute;
@@ -146,7 +146,7 @@
         display: grid;
         gap: var(--gap);
         &-item {
-          aspect-ratio: 325/295;
+          aspect-ratio: calc(325/295);
           display: grid;
           height: 100%;
           width: 100%;
