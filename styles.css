@@ -1545,10 +1545,6 @@ pre {
   position: absolute;
   position: absolute;
 }
-.footer__top-logo {
-  width: 150px;
-  height: auto;
-}
 .footer__middle {
   grid-template-columns: repeat(12, 1fr);
   display: grid;
