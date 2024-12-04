@@ -42,7 +42,7 @@ window.addEventListener('load', function () {
 function handleReviews() {
     let sliderContainer = document.querySelector('.reviews__slider');
     if (sliderContainer) {
-        let flkty = new FlickityResponsive('.reviews__slider', {
+        let flkty = new Flickity('.reviews__slider', {
             groupCells: 2,
             wrapAround: true,
             pageDots: true,
