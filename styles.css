@@ -1645,6 +1645,10 @@ pre {
     display: block;
   }
   .footer .container .footer__top-logo {
+    width: 150px;
+    height: auto;
+    margin-right: 37px;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
