@@ -40,8 +40,6 @@ window.addEventListener('load', function () {
 
 // Reviews
 function handleReviews() {
-    let sliderContainer = document.querySelector('.reviews__slider');
-    if (sliderContainer) {
         let flkty = new Flickity('.reviews__slider', {
             groupCells: 2,
             wrapAround: true,
@@ -76,7 +74,6 @@ function handleReviews() {
             slide.style.height = `${maxHeight}px`;
         });
     }
-}
 window.addEventListener('load', function () {
     handleReviews();
 });
