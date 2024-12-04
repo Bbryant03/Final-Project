@@ -46,7 +46,7 @@ function handleReviews() {
             groupCells: 2,
             wrapAround: true,
             pageDots: true,
-            prevNextButtons: false,
+            prevNextButtons: true,
             responsive: [
                 {
                     breakpoint: 991.98,
