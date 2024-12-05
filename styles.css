@@ -523,7 +523,6 @@ sup {
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-  color: var(--main-cl);
   width: max-content;
   background: var(--main-cl);
   color: var(--white-cl);
@@ -1658,6 +1657,7 @@ pre {
 @media (max-width: 991.98px) and (max-width: 991.98px) {
   .footer .container .footer__top-logo {
     width: 150px;
+    height: auto;
   }
 }
 @media (max-width: 991.98px) {
