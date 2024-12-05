@@ -65,7 +65,7 @@
             &:hover {
               font-family: dsb;
             }
-            @include sm{
+            @include sm {
               font-size: var(--fs-txtmenu-sm);
               line-height: var(--lh-txtmenu-sm);
               letter-spacing: var(--ls-txtmenu-sm);
@@ -75,7 +75,7 @@
       }
     }
 
-    @include sm{
+    @include sm {
       display: block;
       padding: 45px 0 59px 0;
     }
@@ -101,11 +101,7 @@
       position: fixed;
       cursor: pointer;
       bottom: 16px;
-      right: clamp(
-        calc(var(--gap) + 5px),
-        calc(((100vw - var(--max-width-container)) / 2) + 18px),
-        calc((100vw - (var(--max-width-container) / 2)))
-      );
+      right: clamp(calc(var(--gap) + 5px), calc(((100vw - var(--max-width-container)) / 2) + 18px), calc((100vw - (var(--max-width-container) / 2))));
       z-index: 100;
       img {
         @include mid(false);
