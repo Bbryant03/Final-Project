@@ -1618,6 +1618,7 @@ pre {
   width: 100%;
   height: 1px;
   display: block;
+  clear: both;
   top: -31px;
   background: var(--grey-footer);
   position: absolute;
