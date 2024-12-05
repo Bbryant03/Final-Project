@@ -506,18 +506,19 @@ sup {
 .btnmain.--wicon:hover svg path {
   fill: var(--main-cl);
 }
-.btnmain.--subcribe:hover {
+.btnmain.--subscribe:hover {
   background: var(--middle-cl);
   color: var(--white-cl);
 }
 
 .tag {
-  font-family: dsm;
+  font-family: "dsm";
   font-size: var(--fs-txttag);
   letter-spacing: var(--ls-txttag);
   line-height: var(--lh-txttag);
   height: 36px;
   padding: 0 14.36px;
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1816,7 +1817,7 @@ pre {
 .homepage .portfolio .background {
   height: 2400px;
   width: 2400px;
-  background: radial-gradient(circle at 55%, var(--gold) 0%, var(--main-cl) 60%);
+  background: radial-gradient(circle at 50%, var(--gold) 0%, var(--main-cl) 60%);
   opacity: 0.5;
   position: absolute;
   z-index: 0;
@@ -2085,10 +2086,9 @@ pre {
   position: relative;
 }
 .homepage .reviews .background {
+  background: radial-gradient(circle at 55%, var(--gold) 0%, var(--main-cl) 60%);
+  opacity: 0.5;
   position: absolute;
-  top: 0;
-  left: 0;
-  transform: translateX(50%);
 }
 @media (max-width: 991.98px) {
   .homepage .reviews .background {

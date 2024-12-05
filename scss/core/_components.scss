@@ -156,7 +156,7 @@ sup {
       }
     }
   }
-  &.--subcribe {
+  &.--subscribe {
     &:hover {
       background: var(--middle-cl);
       color: var(--white-cl);
@@ -165,12 +165,13 @@ sup {
 }
 
 .tag {
-  font-family: dsm;
+  font-family: 'dsm';
   font-size: var(--fs-txttag);
   letter-spacing: var(--ls-txttag);
   line-height: var(--lh-txttag);
   height: 36px;
   padding: 0 14.36px;
+  z-index: 1;
   @include mid(true);
   text-transform: uppercase;
   color: var(--main-cl);
