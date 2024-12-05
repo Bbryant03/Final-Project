@@ -28,7 +28,7 @@
       justify-content: space-between;
       gap: 27px;
       li:not(:first-child) {
-        a{
+        a {
           color: var(--white-cl);
           @include transition(var(--duration));
           &:after {
@@ -59,8 +59,8 @@
         &:after {
           content: "";
           height: 1px;
-          width: 66px; 
-          background: var(--main-cl); 
+          width: 66px;
+          background: var(--main-cl);
           display: block;
           position: absolute;
           right: -32px;
@@ -106,10 +106,9 @@
             transform: rotate(0deg) translate(0px, 0px);
           }
           &.active {
-
             span {
-            @include mid(false);
-              
+              @include mid(false);
+
               opacity: 0;
             }
             &:before {
@@ -143,7 +142,7 @@
   &.active {
     background: var(--main-cl);
   }
-  @include sm{
+  @include sm {
     background: var(--main-cl);
   }
 }

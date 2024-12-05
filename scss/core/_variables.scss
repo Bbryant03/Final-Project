@@ -9,9 +9,9 @@
 
   /* Color Variables*/
   --main-cl: #000;
-  --middle-cl: #A8A6A0;
+  --middle-cl: #a8a6a0;
   --dark-cl: #473100;
-  --gold: #8E6100;
+  --gold: #8e6100;
   --white-cl: #ffffff;
   --black-cl: #141414;
   --grey-dark-cl: rgba(255, 255, 255, 0.1);
@@ -107,13 +107,13 @@
     --max-width-container: 1140px;
   }
   @include sm {
-    --max-width-container: 960px; 
+    --max-width-container: 960px;
   }
   @include xs {
     --max-width-container: 100%;
     --gap: 16px;
 
-    // Fontsize - Lineheight Variable 
+    // Fontsize - Lineheight Variable
     // 38px / 46px / -1px
     --fs-h1: 3.6rem;
     --lh-h1: 4.6rem;

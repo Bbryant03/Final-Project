@@ -165,7 +165,7 @@ sup {
 }
 
 .tag {
-  font-family: 'dsm';
+  font-family: "dsm";
   font-size: var(--fs-txttag);
   letter-spacing: var(--ls-txttag);
   line-height: var(--lh-txttag);
@@ -475,7 +475,6 @@ p {
   }
 }
 
-
 // New list
 .news {
   .news__list {
@@ -493,7 +492,7 @@ p {
       border-radius: 40px;
       overflow: hidden;
       position: relative;
-  
+
       .thumb {
         a {
           display: flex;
@@ -515,7 +514,7 @@ p {
           }
         }
       }
-  
+
       .content {
         position: relative;
         padding: 60px 30px 34px 23px;
@@ -570,7 +569,7 @@ p {
       border-radius: 40px;
       overflow: hidden;
       position: relative;
-  
+
       .thumb {
         a {
           display: flex;
@@ -592,7 +591,7 @@ p {
           }
         }
       }
-  
+
       .content {
         position: relative;
         padding: 60px 30px 34px 23px;
@@ -647,7 +646,7 @@ p {
       border-radius: 40px;
       overflow: hidden;
       position: relative;
-  
+
       .thumb {
         a {
           display: flex;
@@ -669,7 +668,7 @@ p {
           }
         }
       }
-  
+
       .content {
         position: relative;
         padding: 60px 30px 34px 23px;

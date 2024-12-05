@@ -88,9 +88,9 @@ sup {
   --border: 40px;
   /* Color Variables*/
   --main-cl: #000;
-  --middle-cl: #A8A6A0;
+  --middle-cl: #a8a6a0;
   --dark-cl: #473100;
-  --gold: #8E6100;
+  --gold: #8e6100;
   --white-cl: #ffffff;
   --black-cl: #141414;
   --grey-dark-cl: rgba(255, 255, 255, 0.1);
@@ -207,7 +207,7 @@ body {
   max-width: var(--max-width-page);
   margin: auto;
   scroll-behavior: smooth;
-  font-family: dsr;
+  font-family: "dsr";
   font-size: var(--fs-body);
   line-height: var(--lh-body);
 }
@@ -246,15 +246,8 @@ body .main {
 body .main .portfolio {
   padding-top: 125px;
 }
-body .main .earnrewards {
-  padding-top: 142px;
-  padding-bottom: 275px;
-}
 body .main .reviews {
   padding-top: 200px;
-}
-body .main .signup {
-  padding-top: 159px;
 }
 body .main .news {
   padding-top: 170px;
@@ -305,10 +298,6 @@ body .main .faq {
 @media (max-width: 767.98px) {
   body .main .portfolio {
     padding-top: 56px;
-  }
-  body .main .earnrewards {
-    padding-top: 76px;
-    padding-bottom: 82.6px;
   }
   body .main .reviews {
     padding-top: 120px;
@@ -1258,7 +1247,7 @@ p {
 }
 .nav__blurbg {
   z-index: 300;
-  height: var(--height-header);
+  height: calc(var(--height-header) * 5);
   width: 100%;
   display: flex;
   align-items: center;
