@@ -53,14 +53,15 @@ function handleReviews() {
         },
       },
     ],
-    on: {
-      ready: function () {
-        heightCard();
-      },
-    },
+    on: [ 
+      {
+        ready: function () {
+          heightCard();
+        },
+      }
+    ],
   });
-}
-[];
+};
 function heightCard() {
   let slides = document.querySelectorAll(".reviews__slider-item .textbody.--bd1");
   let maxHeight = 0;
