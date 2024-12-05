@@ -45,19 +45,19 @@ function handleReviews() {
             wrapAround: true,
             pageDots: true,
             prevNextButtons: true,
-            // responsive: [
-            //     {
-            //         breakpoint: 991.98,
-            //         settings: {
-            //             groupCells: 1,
-            //         }
-            //     }
-            // ],
-            // on: {
-            //     ready: function () {
-            //         heightCard()
-            //     }
-            // }
+            responsive: [
+                {
+                    breakpoint: 991.98,
+                    settings: {
+                        groupCells: 1,
+                    }
+                }
+            ],
+            on: {
+                ready: function () {
+                    heightCard()
+                }
+            }
         });
     }
     function heightCard() {
