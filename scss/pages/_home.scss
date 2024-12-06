@@ -19,6 +19,7 @@
         @include transform(translateY(-50%));
         .planetearth {
           position: absolute;
+          width: 50vw;
           img {
             @include midimg;
           }

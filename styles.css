@@ -1487,6 +1487,7 @@ p {
   }
   .homepage .hero .hero__pic .planetearth {
     position: absolute;
+    width: 50vw;
   }
   .homepage .hero .hero__pic .planetearth img {
     width: 100%;
