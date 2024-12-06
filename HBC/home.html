@@ -67,14 +67,17 @@
           </div>
         </div>
         <div class="hero__pic">
-          <div class="planetbg"></div>
+          <div class="planetbg">
+            <source media="max-width:767px">
+          </div>
           <picture class="planetearth">
-            <img media="(max-width:767px)" src="../img/pickuptruck.png" srcset="../img/pickuptruck.png 2x" alt="PickupTruck">
+            <source media="max-width:767px">
+            <img src="../img/pickuptruck.png" srcset="../img/pickuptruck.png 2x" alt="PickupTruck">
           </picture>
         </div>
       </section>
 
-      <section class="sponsor">
+      <div class="sponsor">
         <div class="container">
           <p>Heavenbound Customs sponsors</p>
           <div class="bottom-company">
@@ -85,7 +88,7 @@
             <img src="../img/company-logo5.svg" alt="Sponsor" >
           </div>
         </div>
-      </section>
+      </div>
 
       <section class="portfolio">
         <div class="background"></div>
@@ -407,6 +410,6 @@
     </footer>
     <!-- Javascript -->
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <script type="text/javascript" src="../main.js"></script>
+    <script src="../main.js"></script>
   </body>
 </html>
