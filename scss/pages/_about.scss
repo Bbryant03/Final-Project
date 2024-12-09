@@ -87,18 +87,12 @@
           object-fit: cover;
         }
       }
-      .mission__earth {
-        display: none;
-      }
     }
     @include maxW(991px) {
       .textbox.--bottom {
         margin-top: 65px;
       }
       .mission__thumb {
-        display: none;
-      }
-      .mission__earth {
         width: 100%;
         margin-top: 90.34px;
         img {
