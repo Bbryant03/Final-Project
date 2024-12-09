@@ -60,7 +60,7 @@
     width: 100%;       
     @include minW(992px) {
       display: grid;
-      grid-template-columns: repeat(12, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       grid-template-rows: 1fr 1fr;
       gap: var(--gap);
       .textbox.--top {
