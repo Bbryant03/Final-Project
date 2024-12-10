@@ -216,7 +216,8 @@
   .reviews {
     position: relative;
     .background {
-      background: radial-gradient(circle at 55%, var(--gold) 0%, var(--main-cl) 60%);
+      width: 100%;
+      background: radial-gradient(circle at 50%, var(--gold) 0%, var(--main-cl) 60%);
       opacity: 0.5;
       position: absolute;
       @include sm {
