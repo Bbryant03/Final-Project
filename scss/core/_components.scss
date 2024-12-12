@@ -100,7 +100,6 @@ sup {
   @include mid(true);
 
   text-transform: uppercase;
-  color: var(--main-cl);
   @include transition(var(--duration));
   cursor: pointer;
   width: max-content;

@@ -435,7 +435,6 @@ sup {
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-  color: var(--main-cl);
   transition: var(--duration);
   cursor: pointer;
   width: max-content;
@@ -1618,7 +1617,7 @@ p {
   }
 }
 .homepage .portfolio .container .portfolio__list {
-  grid-template-columns: 0.67148fr 1fr 0.67148fr;
+  grid-template-columns: 1fr 1fr 1fr;
   display: grid;
   gap: var(--gap);
 }
@@ -2504,6 +2503,9 @@ p {
   padding: 0 25px;
   height: 68px;
   background: var(--gold);
+}
+.getintouch__content-form .form-row .form-group input ::placeholder {
+  color: var(--white-cl);
 }
 .getintouch__content-form .form-row .form-group input.--error {
   border: 1.5px solid red;
