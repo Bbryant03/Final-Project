@@ -3,8 +3,8 @@
   min-width: 320px;
   overflow: hidden;
   .background {
-    height: 2400px;
-    width: 2400px;
+    height: 200vh;
+    width: 100%;
     background: radial-gradient(circle at 50%, var(--gold) 0%, var(--main-cl) 60%);
     opacity: 0.5;
     position: absolute;
@@ -67,14 +67,8 @@
         padding-right: 76px;
       }
       .mission__thumb {
-        grid-column: 8/13;
-        grid-row: 1/ span 3;
-        position: absolute;
-        left: 0;
-        top: 0;
-        bottom: 0;
+        grid-column: 3/3;
         img {
-          width: auto;
           object-fit: cover;
         }
       }
