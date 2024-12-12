@@ -60,17 +60,10 @@
     width: 100%;       
     @include minW(992px) {
       display: grid;
-      grid-template-columns: repeat(12, 1fr);
-      grid-template-rows: 1fr 1fr;
+      grid-template-columns: repeat(3, 1fr);
       gap: var(--gap);
       .textbox.--top {
-        grid-column: 1/6;
-        grid-row: 1/2;
-        padding-right: 76px;
-      }
-      .textbox.--bottom {
-        grid-column: 1/6;
-        grid-row: 2/2;
+        grid-column: 1/3;
         padding-right: 76px;
       }
       .mission__thumb {
