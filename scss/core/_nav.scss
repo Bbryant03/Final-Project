@@ -11,8 +11,8 @@
   visibility: hidden;
   transition: 0.3s;
   &__blurbg {
-    z-index: 300;
-    height: calc(var(--height-header) * 5);
+    z-index: 0;
+    height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@
   ul {
     position: absolute;
     z-index: 350;
-    li:not(:last-child) {
+    li {
       text-align: center;
       a {
         font-family: dsb;

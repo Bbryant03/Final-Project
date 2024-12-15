@@ -1246,8 +1246,8 @@ p {
   transition: 0.3s;
 }
 .nav__blurbg {
-  z-index: 300;
-  height: calc(var(--height-header) * 5);
+  z-index: 0;
+  height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -1259,10 +1259,10 @@ p {
   position: absolute;
   z-index: 350;
 }
-.nav ul li:not(:last-child) {
+.nav ul li {
   text-align: center;
 }
-.nav ul li:not(:last-child) a {
+.nav ul li a {
   font-family: dsb;
   font-size: var(--fs-navmenu);
   letter-spacing: var(--ls-navmenu);
@@ -1274,7 +1274,7 @@ p {
   padding: 20px 0;
   transition: var(--duration);
 }
-.nav ul li:not(:last-child) a.active {
+.nav ul li a.active {
   color: var(--main-cl);
 }
 .nav ul .btnmain {
