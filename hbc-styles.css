@@ -1790,7 +1790,7 @@ p {
   overflow: hidden;
 }
 .about .background {
-  height: 200vh;
+  height: 95%;
   width: 100%;
   background: radial-gradient(circle at 50%, var(--gold) 0%, var(--main-cl) 60%);
   opacity: 0.5;
@@ -1848,6 +1848,7 @@ p {
 
 .mission .container {
   width: 100%;
+  padding-bottom: 50px;
 }
 
 .timeline .container {
