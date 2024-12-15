@@ -57,42 +57,7 @@
 }
 .mission {
   .container {
-    width: 100%;       
-    @include minW(992px) {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: var(--gap);
-      .textbox.--top {
-        grid-column: 1/3;
-        padding-right: 76px;
-      }
-      .mission__thumb {
-        grid-column: 3/3;
-        img {
-          object-fit: cover;
-        }
-      }
-      .mission__earth {
-        display: none;
-      }
-    }
-    @include maxW(991px) {
-      .textbox.--bottom {
-        margin-top: 65px;
-      }
-      .mission__thumb {
-        display: none;
-      }
-      .mission__earth {
-        width: 100%;
-        margin-top: 90.34px;
-        img {
-          height: 100%;
-          width: 100%;
-          object-fit: cover;
-        }
-      }
-    }
+    width: 100%;
   }
 }
 .timeline {
