@@ -100,9 +100,10 @@ body {
     @include xs {
       .portfolio {
         padding-top: 56px;
+        padding-bottom: 56px;
       }
       .reviews {
-        padding-top: 120px;
+        display: none;
       }
       .signup {
         padding-top: 120px;
