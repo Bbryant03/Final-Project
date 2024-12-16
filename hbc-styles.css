@@ -1988,8 +1988,8 @@ p {
 @media (max-width: 991.98px) {
   .pricing__package {
     margin-bottom: 16px;
-    flex-wrap: wrap;
     justify-content: space-around;
+    grid-template-columns: none;
   }
   .pricing__package-item .btnmain {
     width: 100%;

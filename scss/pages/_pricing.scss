@@ -27,8 +27,8 @@
     justify-items: stretch;
     @include sm {
       margin-bottom: 16px;
-      flex-wrap: wrap;
       justify-content: space-around;
+      grid-template-columns: none;
       &-item {
         .btnmain {
           width: 100%;
