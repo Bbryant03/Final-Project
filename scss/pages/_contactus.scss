@@ -30,7 +30,7 @@
             padding: 0 25px;
             height: 68px;
             background: var(--gold);
-            ::placeholder {
+            &::placeholder {
               color: var(--white-cl);
             }
             &.--error {
