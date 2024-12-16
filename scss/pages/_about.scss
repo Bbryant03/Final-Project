@@ -15,6 +15,16 @@
       object-fit: cover;
     }
   }
+  ul {
+    list-style: circle;
+    li {
+      color: var(--white-cl);
+      font-family: inherit;
+      font-size: var(--fs-body1);
+      line-height: var(--lh-body1);
+      letter-spacing: var(--ls-body1);    
+    }
+  }
   .container {
     z-index: 1;
     .textbox {
