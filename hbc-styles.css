@@ -1988,6 +1988,7 @@ p {
   background: var(--gold);
   padding: 48px 30px;
   border-radius: var(--border);
+  text-align: center;
 }
 .pricing__package-item .textbox p,
 .pricing__package-item .textbox h2 {
