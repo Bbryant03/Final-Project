@@ -79,6 +79,10 @@ sup {
   font-size: smaller;
 }
 
+::placeholder {
+  color: white;
+}
+
 :root {
   /* MaxWidth Of Page, Container-Fluid, Container, Gutter*/
   --max-width-page: 2560px;
@@ -2487,9 +2491,6 @@ p {
   padding: 0 25px;
   height: 68px;
   background: var(--gold);
-}
-.getintouch__content-form .form-row .form-group input::placeholder {
-  color: var(--white-cl);
 }
 .getintouch__content-form .form-row .form-group input.--error {
   border: 1.5px solid red;
