@@ -18,8 +18,8 @@
   }
   &__package {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     align-items: stretch;
     justify-content: space-evenly;
     gap: 26px;
@@ -40,6 +40,8 @@
       padding: 48px 30px;
       border-radius: var(--border);
       text-align: center;
+      display: grid;
+      gap: var(--gap);
       .textbox {
         p,
         h2 {

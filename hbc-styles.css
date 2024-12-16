@@ -1852,6 +1852,7 @@ p {
 }
 .mission ul {
   list-style: circle;
+  padding-left: 50px;
 }
 .mission ul li {
   color: var(--white-cl);
@@ -1977,8 +1978,8 @@ p {
 }
 .pricing__package {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   align-items: stretch;
   justify-content: space-evenly;
   gap: 26px;
@@ -2000,6 +2001,8 @@ p {
   padding: 48px 30px;
   border-radius: var(--border);
   text-align: center;
+  display: grid;
+  gap: var(--gap);
 }
 .pricing__package-item .textbox p,
 .pricing__package-item .textbox h2 {
