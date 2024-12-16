@@ -59,6 +59,7 @@
           margin-bottom: 52px;
 
           textarea {
+            resize: none;
             width: 100%;
             color: var(--white-cl);
             font-size: var(--fs-body1);

@@ -2521,6 +2521,7 @@ p {
   margin-bottom: 52px;
 }
 .getintouch__content-form .form-row:nth-child(3) textarea {
+  resize: none;
   width: 100%;
   color: var(--white-cl);
   font-size: var(--fs-body1);
