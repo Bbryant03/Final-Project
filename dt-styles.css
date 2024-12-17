@@ -79,6 +79,10 @@ sup {
   font-size: smaller;
 }
 
+::placeholder {
+  color: white;
+}
+
 :root {
   /* MaxWidth Of Page, Container-Fluid, Container, Gutter*/
   --max-width-page: 2560px;
@@ -524,6 +528,8 @@ sup {
   justify-content: flex-start;
   align-items: center;
   gap: 28px;
+  position: relative;
+  z-index: 2;
 }
 @media (max-width: 767.98px) {
   .btnpackage {
@@ -1510,10 +1516,14 @@ p {
   }
   .homepage .hero .hero__content .container h1 {
     max-width: 55%;
+    position: relative;
+    z-index: 2;
   }
   .homepage .hero .hero__content .container p {
     max-width: 50%;
     margin: 10px 0 42px 0;
+    position: relative;
+    z-index: 2;
   }
 }
 @media (max-width: 991.98px) {
@@ -1850,6 +1860,17 @@ p {
   width: 100%;
   padding-bottom: 100px;
 }
+.mission ul {
+  list-style: circle;
+  padding-left: 50px;
+}
+.mission ul li {
+  color: var(--white-cl);
+  font-family: inherit;
+  font-size: var(--fs-body1);
+  line-height: var(--lh-body1);
+  letter-spacing: var(--ls-body1);
+}
 
 .timeline .container {
   grid-template-columns: repeat(12, 1fr);
@@ -1967,18 +1988,19 @@ p {
 }
 .pricing__package {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  align-items: center;
-  justify-content: space-between;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  align-items: stretch;
+  justify-content: space-evenly;
   gap: 26px;
   padding-top: 50px;
+  justify-items: stretch;
 }
 @media (max-width: 991.98px) {
   .pricing__package {
     margin-bottom: 16px;
-    flex-wrap: wrap;
     justify-content: space-around;
+    grid-template-columns: none;
   }
   .pricing__package-item .btnmain {
     width: 100%;
@@ -1989,6 +2011,8 @@ p {
   padding: 48px 30px;
   border-radius: var(--border);
   text-align: center;
+  display: grid;
+  gap: var(--gap);
 }
 .pricing__package-item .textbox p,
 .pricing__package-item .textbox h2 {
@@ -2474,9 +2498,6 @@ p {
   height: 68px;
   background: var(--gold);
 }
-.getintouch__content-form .form-row .form-group input ::placeholder {
-  color: var(--white-cl);
-}
 .getintouch__content-form .form-row .form-group input.--error {
   border: 1.5px solid red;
 }
@@ -2506,6 +2527,7 @@ p {
   margin-bottom: 52px;
 }
 .getintouch__content-form .form-row:nth-child(3) textarea {
+  resize: none;
   width: 100%;
   color: var(--white-cl);
   font-size: var(--fs-body1);
