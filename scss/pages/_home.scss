@@ -41,10 +41,14 @@
         .container {
           h1 {
             max-width: 55%;
+            position: relative;
+            z-index: 2;
           }
           p {
             max-width: 50%;
             margin: 10px 0 42px 0;
+            position: relative;
+            z-index: 2;
           }
         }
       }

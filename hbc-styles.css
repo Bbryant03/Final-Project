@@ -528,6 +528,8 @@ sup {
   justify-content: flex-start;
   align-items: center;
   gap: 28px;
+  position: relative;
+  z-index: 2;
 }
 @media (max-width: 767.98px) {
   .btnpackage {
@@ -1514,10 +1516,14 @@ p {
   }
   .homepage .hero .hero__content .container h1 {
     max-width: 55%;
+    position: relative;
+    z-index: 2;
   }
   .homepage .hero .hero__content .container p {
     max-width: 50%;
     margin: 10px 0 42px 0;
+    position: relative;
+    z-index: 2;
   }
 }
 @media (max-width: 991.98px) {
