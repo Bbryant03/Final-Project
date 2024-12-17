@@ -147,8 +147,9 @@
         }
       }
       .portfolio__list {
-        grid-template-columns: 1fr 1fr 1fr;
         display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
         gap: var(--gap);
         &-item {
           aspect-ratio: 325/295;
@@ -177,25 +178,8 @@
               justify-content: space-evenly;
               aspect-ratio: 358/622;
             }
-            @include maxW(450px) {
-              justify-content: initial;
-              .iphonehalf {
-                margin-top: 24px;
-              }
-            }
             p {
               margin-top: 22px;
-            }
-            .iphonehalf {
-              aspect-ratio: 402/405;
-              position: relative;
-              img {
-                @include midimg();
-                position: absolute;
-                top: 0;
-                left: 0;
-                height: auto;
-              }
             }
           }
         }
