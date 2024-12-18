@@ -1628,8 +1628,8 @@ p {
   }
 }
 .homepage .portfolio .container .portfolio__list {
-  grid-template-columns: 1fr 1fr 1fr;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: var(--gap);
 }
 .homepage .portfolio .container .portfolio__list-item {
@@ -1665,29 +1665,8 @@ p {
     aspect-ratio: 358/622;
   }
 }
-@media (max-width: 450px) {
-  .homepage .portfolio .container .portfolio__list-item:nth-child(3) {
-    justify-content: initial;
-  }
-  .homepage .portfolio .container .portfolio__list-item:nth-child(3) .iphonehalf {
-    margin-top: 24px;
-  }
-}
 .homepage .portfolio .container .portfolio__list-item:nth-child(3) p {
   margin-top: 22px;
-}
-.homepage .portfolio .container .portfolio__list-item:nth-child(3) .iphonehalf {
-  aspect-ratio: 402/405;
-  position: relative;
-}
-.homepage .portfolio .container .portfolio__list-item:nth-child(3) .iphonehalf img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: auto;
 }
 @media (max-width: 991.98px) {
   .homepage .portfolio .container .portfolio__list {
