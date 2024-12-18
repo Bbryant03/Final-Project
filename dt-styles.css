@@ -264,7 +264,6 @@ body .main .ourteam {
   padding-bottom: 126px;
 }
 body .main .about {
-  padding-bottom: 232px;
   padding-top: calc(40px + var(--height-header));
 }
 body .main .pricing {
@@ -1838,6 +1837,7 @@ p {
 .mission .container {
   width: 100%;
   padding-bottom: 100px;
+  padding-top: 200px;
 }
 .mission ul {
   list-style: circle;
