@@ -70,4 +70,20 @@
       }
     }
   }
+  &.--reviews__slider-item {
+    background: transparent;
+    padding: 65px 50px;
+    width: calc(var(--max-width-container) / 2 - var(--gap) / 2 - var(--gap));
+    min-width: 335px;
+    margin: 0 calc(var(--gap) / 2);
+    border-radius: 40px;
+    opacity: 0.3;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: opacity 1s ease-in-out;
+    &.is-selected {
+      opacity: 1;
+    }
+  }
 }
