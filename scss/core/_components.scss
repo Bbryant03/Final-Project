@@ -8,7 +8,7 @@ img {
   outline: 0;
   object-fit: contain;
   z-index: 1;
-  &.---center {
+  &.xx-center {
     margin: 0 auto;
     display: block;
   }
@@ -57,23 +57,23 @@ sup {
   color: var(--white-cl);
   font-family: dsr;
 
-  &.---bd1 {
+  &.xx-bd1 {
     font-size: var(--fs-body1);
     line-height: var(--lh-body1);
     letter-spacing: var(--ls-body1);
   }
 
-  &.---bd2 {
+  &.xx-bd2 {
     font-size: var(--fs-body2);
     line-height: var(--lh-body2);
     letter-spacing: var(--ls-body2);
   }
-  &.---author {
+  &.xx-author {
     font-size: var(--fs-author);
     line-height: var(--lh-author);
     letter-spacing: var(--ls-author);
     text-transform: uppercase;
-    &.---name {
+    &.xx-name {
       font-family: dsb;
     }
   }
@@ -117,15 +117,15 @@ sup {
     background: var(--white-cl);
     color: var(--main-cl);
   }
-  &.---grey {
+  &.xx-grey {
     background: var(--grey-dark-cl);
     color: var(--white-cl);
   }
-  &.---grey:hover {
+  &.xx-grey:hover {
     background: var(--main-cl);
     color: var(--white-cl);
   }
-  &.---white {
+  &.xx-white {
     background: var(--white-cl);
     color: var(--main-cl);
     @include sm {
@@ -136,17 +136,17 @@ sup {
       }
     }
   }
-  &.---white:hover {
+  &.xx-white:hover {
     background: var(--middle-cl);
     color: var(--white-cl);
   }
-  &.---btnheader {
+  &.xx-btnheader {
     height: var(--height-button-header);
   }
-  &.---center {
+  &.xx-center {
     margin: auto;
   }
-  &.---wicon {
+  &.xx-wicon {
     gap: 8px;
     &:hover {
       @include transition(var(--duration));
@@ -156,7 +156,7 @@ sup {
       }
     }
   }
-  &.---subscribe {
+  &.xx-subscribe {
     &:hover {
       background: var(--middle-cl);
       color: var(--white-cl);
@@ -201,45 +201,45 @@ sup {
   font-family: dsb;
   color: var(--white-cl);
 
-  &.---h1 {
+  &.xx-h1 {
     font-size: var(--fs-h1);
     line-height: var(--lh-h1);
     letter-spacing: var(--ls-h1);
   }
-  &.---h2 {
+  &.xx-h2 {
     font-size: var(--fs-h2);
     line-height: var(--lh-h2);
     letter-spacing: var(--ls-h2);
   }
 
-  &.---h3 {
+  &.xx-h3 {
     font-size: var(--fs-h3);
     line-height: var(--lh-h3);
     letter-spacing: normal;
   }
-  &.---label {
+  &.xx-label {
     text-transform: uppercase;
     font-size: var(--fs-lb);
     line-height: var(--lh-lb);
     letter-spacing: var(--ls-lb);
   }
-  &.---spec {
+  &.xx-spec {
     font-size: var(--fs-spec);
     line-height: var(--lh-spec);
     letter-spacing: var(--ls-spec);
     text-transform: uppercase;
   }
-  &.---h4 {
+  &.xx-h4 {
     font-size: var(--fs-name);
     letter-spacing: var(--ls-name);
     line-height: var(--lh-name);
   }
-  &.---yr {
+  &.xx-yr {
     font-size: var(--fs-yr);
     line-height: var(--lh-yr);
     letter-spacing: var(--ls-yr);
   }
-  &.---blog {
+  &.xx-blog {
     font-size: var(--fs-blog);
     line-height: var(--lh-blog);
     letter-spacing: var(--ls-blog);
@@ -274,7 +274,7 @@ p {
 
 // Textbox
 .textbox {
-  &.---align-left {
+  &.xx-align-left {
     p {
       margin-top: 19px;
       @include xxs {
@@ -282,7 +282,7 @@ p {
       }
     }
   }
-  &.---textcenter {
+  &.xx-textcenter {
     text-align: center;
     max-width: 55%;
     margin: auto;
@@ -291,22 +291,22 @@ p {
     }
     @include xs {
       max-width: 100%;
-      &.---title {
+      &.xx-title {
         text-align: left;
       }
     }
   }
-  &.---align-center {
+  &.xx-align-center {
     display: flex;
     align-items: center;
     justify-content: space-between;
     @include sm {
       display: initial;
-      .heading.---h2 {
+      .heading.xx-h2 {
         white-space: initial;
       }
     }
-    .heading.---h2 {
+    .heading.xx-h2 {
       white-space: nowrap;
     }
     p {
@@ -330,7 +330,7 @@ p {
   img {
     @include mid(false);
   }
-  &.---small {
+  &.xx-small {
     width: 46px;
     height: 46px;
     border-radius: 13px;
@@ -360,7 +360,7 @@ p {
     .number {
       padding: 0 8px;
       &:hover,
-      &.---active {
+      &.xx-active {
         color: var(--main-cl);
       }
     }
@@ -371,7 +371,7 @@ p {
           fill: var(--main-cl);
         }
       }
-      &.---disable {
+      &.xx-disable {
         svg path {
           opacity: 0.2;
         }
@@ -527,7 +527,7 @@ p {
         &__text {
           padding-bottom: 25px;
           border-bottom: 1px solid var(--grey-dark-cl);
-          .heading.---h3 {
+          .heading.xx-h3 {
             position: relative;
             a {
               min-height: 50px;
@@ -604,7 +604,7 @@ p {
         &__text {
           padding-bottom: 25px;
           border-bottom: 1px solid var(--grey-dark-cl);
-          .heading.---h3 {
+          .heading.xx-h3 {
             position: relative;
             a {
               min-height: 50px;
@@ -681,7 +681,7 @@ p {
         &__text {
           padding-bottom: 25px;
           border-bottom: 1px solid var(--grey-dark-cl);
-          .heading.---h3 {
+          .heading.xx-h3 {
             position: relative;
             a {
               min-height: 50px;

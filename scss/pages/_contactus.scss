@@ -30,7 +30,7 @@
             padding: 0 25px;
             height: 68px;
             background: var(--gold);
-            &.---error {
+            &.xx-error {
               border: 1.5px solid red;
             }
             &:focus {
@@ -72,7 +72,7 @@
             height: 162px;
             border: 1px solid var(--main-cl);
             background: var(--gold);
-            &.---error {
+            &.xx-error {
               border: 1.5px solid red;
             }
             &:focus {
@@ -108,7 +108,7 @@
 }
 .faq {
   .container {
-    .heading.---h1 {
+    .heading.xx-h1 {
       text-transform: uppercase;
       padding-bottom: 80px;
       text-align: center;
