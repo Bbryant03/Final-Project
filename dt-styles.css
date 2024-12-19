@@ -1960,6 +1960,9 @@ p {
   padding-top: 50px;
   justify-items: stretch;
 }
+.servicespage .services__package-item {
+  justify-items: center;
+}
 @media (max-width: 991.98px) {
   .servicespage .services__package {
     margin-bottom: 16px;

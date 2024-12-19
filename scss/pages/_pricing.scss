@@ -11,6 +11,9 @@
       gap: 26px;
       padding-top: 50px;
       justify-items: stretch;
+      &-item {
+        justify-items: center;
+      }
       @include sm {
         margin-bottom: 16px;
         justify-content: space-around;
