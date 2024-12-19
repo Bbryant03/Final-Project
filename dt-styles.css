@@ -1974,6 +1974,7 @@ p {
   margin-top: 33px;
   width: 100%;
   overflow: hidden;
+  padding-bottom: 100px;
 }
 .servicespage .services__slider .flickity-page-dots {
   margin-top: 40px;
@@ -1992,7 +1993,7 @@ p {
   opacity: 1;
 }
 .servicespage .services__slider-item {
-  background: var(--dark-blue);
+  background: var(--dark-cl);
   padding: 65px 50px;
   width: calc(var(--max-width-container) / 2 - var(--gap) / 2 - var(--gap));
   min-width: 335px;
