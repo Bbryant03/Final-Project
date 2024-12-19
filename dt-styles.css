@@ -2025,17 +2025,6 @@ p {
     height: auto;
   }
 }
-@media (max-width: 991.98px) {
-  .servicespage__slider {
-    display: none;
-  }
-  .servicespage .services {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: var(--gap);
-  }
-}
 
 .blog {
   overflow-x: hidden;
