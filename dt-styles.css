@@ -1606,16 +1606,6 @@ p {
 .homepage .portfolio .container {
   z-index: 1;
 }
-.homepage .portfolio .container table {
-  color: var(--white-cl);
-  font-family: dsr;
-  font-size: var(--fs-body1);
-  line-height: var(--lh-body1);
-  letter-spacing: var(--ls-body1);
-  width: 75vw;
-  border-spacing: 50px 1rem;
-  border-collapse: separate;
-}
 .homepage .portfolio .container .textbox {
   margin-bottom: 80px;
 }
@@ -1685,6 +1675,16 @@ p {
 }
 .homepage .portfolio .container .btnmain {
   margin-top: 48px;
+}
+.homepage .mission .container table table {
+  color: var(--white-cl);
+  font-family: dsr;
+  font-size: var(--fs-body1);
+  line-height: var(--lh-body1);
+  letter-spacing: var(--ls-body1);
+  width: 75vw;
+  border-spacing: 50px 1rem;
+  border-collapse: separate;
 }
 .homepage .reviews {
   position: relative;
