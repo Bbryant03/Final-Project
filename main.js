@@ -62,6 +62,31 @@ function handleReviews() {
     ],
   });
 };
+
+function handleReviews() {
+  let flkty = new Flickity(".services__slider", {
+    groupCells: 2,
+    wrapAround: true,
+    pageDots: true,
+    prevNextButtons: true,
+    responsive: [
+      {
+        breakpoint: 991.98,
+        settings: {
+          groupCells: 1,
+        },
+      },
+    ],
+    on: [ 
+      {
+        ready: function () {
+          heightCard();
+        },
+      }
+    ],
+  });
+};
+
 function heightCard() {
   let slides = document.querySelectorAll(".reviews__slider-item .textbody.--bd1");
   let maxHeight = 0;
@@ -77,9 +102,11 @@ function heightCard() {
 }
 window.addEventListener("load", function () {
   handleReviews();
+  handleServcices();
 });
 window.addEventListener("resize", function () {
   handleReviews();
+  handleServices();
 });
 
 // Click Hamburger, Show Menu
