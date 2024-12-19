@@ -63,7 +63,7 @@ function handleReviews() {
   });
 };
 
-function handleReviews() {
+function handleServices() {
   let flkty = new Flickity(".services__slider", {
     groupCells: 2,
     wrapAround: true,
@@ -102,7 +102,7 @@ function heightCard() {
 }
 window.addEventListener("load", function () {
   handleReviews();
-  handleServcices();
+  handleServices();
 });
 window.addEventListener("resize", function () {
   handleReviews();
