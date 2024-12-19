@@ -21,52 +21,52 @@
           }
         }
       }
-      &__slider {
-        margin-top: 33px;
-        width: 100%;
-        overflow: hidden;
-  
-        .flickity-page-dots {
-          margin-top: 40px;
-          .dot {
-            @include size(14px, 14px, true);
-            background-color: var(--white-cl);
-            opacity: 0.4;
-            padding: 0;
-            margin: 5px;
-            &.is-selected {
-              background-color: var(--white-cl);
-              opacity: 1;
-            }
-          }
-        }
-  
-        &-item {
-          background: var(--dark-blue);
-          padding: 65px 50px;
-          width: calc(var(--max-width-container) / 2 - (var(--gap) / 2) - var(--gap));
-          min-width: 335px;
-          margin: 0 calc(var(--gap) / 2);
-          border-radius: 40px;
-          opacity: 0.3;
-          display: flex;
-          justify-content: space-between;
-          flex-direction: column;
-          transition: opacity 1s ease-in-out;
-          .author {
-            margin-top: 25px;
-            position: initial;
-          }
+    }
+    &__slider {
+      margin-top: 33px;
+      width: 100%;
+      overflow: hidden;
+
+      .flickity-page-dots {
+        margin-top: 40px;
+        .dot {
+          @include size(14px, 14px, true);
+          background-color: var(--white-cl);
+          opacity: 0.4;
+          padding: 0;
+          margin: 5px;
           &.is-selected {
+            background-color: var(--white-cl);
             opacity: 1;
           }
-          @include sm {
-            width: calc(100vw - var(--gap) * 2 - 23px);
-            margin: 0 calc(var(--gap) / 2);
-  
-            p {
-              height: auto;
-            }
+        }
+      }
+
+      &-item {
+        background: var(--dark-blue);
+        padding: 65px 50px;
+        width: calc(var(--max-width-container) / 2 - (var(--gap) / 2) - var(--gap));
+        min-width: 335px;
+        margin: 0 calc(var(--gap) / 2);
+        border-radius: 40px;
+        opacity: 0.3;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        transition: opacity 1s ease-in-out;
+        .author {
+          margin-top: 25px;
+          position: initial;
+        }
+        &.is-selected {
+          opacity: 1;
+        }
+        @include sm {
+          width: calc(100vw - var(--gap) * 2 - 23px);
+          margin: 0 calc(var(--gap) / 2);
+
+          p {
+            height: auto;
           }
         }
       }
