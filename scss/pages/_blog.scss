@@ -31,7 +31,7 @@
         a {
           cursor: pointer;
           color: var(--white-cl);
-          @include transform(transition(var(--duration)));
+          @include transition(var(--duration) transform);
           &:hover {
             color: var(--dark-cl);
           }

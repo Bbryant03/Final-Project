@@ -708,7 +708,7 @@ p {
   color: var(--main-cl);
 }
 .paging li .iconnect {
-  transform: transition(var(--duration));
+  transition: var(--duration) transform;
 }
 .paging li .iconnect:hover svg rect {
   fill: var(--main-cl);
@@ -2051,7 +2051,7 @@ p {
 .blog__list .content h2 a {
   cursor: pointer;
   color: var(--white-cl);
-  transform: transition(var(--duration));
+  transition: var(--duration) transform;
 }
 .blog__list .content h2 a:hover {
   color: var(--dark-cl);

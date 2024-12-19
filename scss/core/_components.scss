@@ -365,7 +365,7 @@ p {
       }
     }
     .iconnect {
-      @include transform(transition(var(--duration)));
+      @include transition(var(--duration) transform);
       &:hover {
         svg rect {
           fill: var(--main-cl);
