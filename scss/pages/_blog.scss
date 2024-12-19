@@ -104,7 +104,7 @@
         &__text {
           padding-bottom: 25px;
           border-bottom: 1px solid var(--grey-dark-cl);
-          .heading.--blog {
+          .heading.---blog {
             position: relative;
             font-size: dsb;
             font-size: var(--fs-h3);
@@ -120,7 +120,7 @@
               }
             }
           }
-          .textbody.--bd1 {
+          .textbody.---bd1 {
             @include overtext(3);
             color: var(--white-cl);
             margin-top: 16px;
@@ -229,7 +229,7 @@
         @include sm {
           margin-top: 30px;
         }
-        &.--active {
+        &.---active {
           display: grid;
           @include sm {
             display: flex;
@@ -258,7 +258,7 @@
     cursor: pointer;
 
     &:hover,
-    &.--active {
+    &.---active {
       background: var(--main-cl);
     }
     @include sm {

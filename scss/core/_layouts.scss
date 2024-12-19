@@ -10,7 +10,7 @@ body {
   font-family: 'dsr';
   font-size: var(--fs-body);
   line-height: var(--lh-body);
-  &.--disable-scroll {
+  &.---disable-scroll {
     height: 100vh;
     overflow: hidden;
   }
@@ -71,7 +71,7 @@ body {
       padding-top: 148px;
       padding-bottom: 80px;
     }
-    .sponsor.--about {
+    .sponsor.---about {
       padding-bottom: 120px;
     }
     .post {
@@ -120,7 +120,7 @@ body {
       .services {
         padding-bottom: 80px;
       }
-      .sponsor.--about {
+      .sponsor.---about {
         padding-bottom: 80px;
       }
       .post {
