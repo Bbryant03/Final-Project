@@ -57,6 +57,7 @@
         justify-content: space-between;
         flex-direction: column;
         transition: opacity 1s ease-in-out;
+        justify-items: center;
         .author {
           margin-top: 25px;
           position: initial;
@@ -73,6 +74,17 @@
           }
         }
       }
+    }
+  }
+  @include sm {
+    &__slider {
+      display: none;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      gap: var(--gap);
     }
   }
 }

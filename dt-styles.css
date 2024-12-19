@@ -2007,6 +2007,7 @@ p {
   justify-content: space-between;
   flex-direction: column;
   transition: opacity 1s ease-in-out;
+  justify-items: center;
 }
 .servicespage .services__slider-item .author {
   margin-top: 25px;
@@ -2022,6 +2023,17 @@ p {
   }
   .servicespage .services__slider-item p {
     height: auto;
+  }
+}
+@media (max-width: 991.98px) {
+  .servicespage__slider {
+    display: none;
+  }
+  .servicespage .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: var(--gap);
   }
 }
 
