@@ -266,7 +266,7 @@ body .main .ourteam {
 body .main .about {
   padding-top: calc(40px + var(--height-header));
 }
-body .main .pricing {
+body .main .services {
   padding-bottom: 225px;
   padding-top: calc(40px + var(--height-header));
 }
@@ -319,7 +319,7 @@ body .main .faq {
   body .main .ourteam {
     padding-bottom: 80px;
   }
-  body .main .pricing {
+  body .main .services {
     padding-bottom: 80px;
   }
   body .main .sponsor.--about {
