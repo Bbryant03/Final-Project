@@ -390,7 +390,7 @@ sub {
 }
 
 sup {
-  vertical-align: sup;
+  vertical-align: super;
   font-size: smaller;
 }
 
@@ -890,8 +890,6 @@ p {
   min-height: 50px;
   color: var(--white-cl);
   display: inline-flex;
-  line-clamp: 2;
-  box-orient: vertical;
   text-overflow: ellipsis;
   overflow: hidden;
   transition: var(--duration);
@@ -901,8 +899,6 @@ p {
 }
 .news .news__list-item .content__text p {
   display: inline-flex;
-  line-clamp: 3;
-  box-orient: vertical;
   text-overflow: ellipsis;
   overflow: hidden;
   color: var(--white-cl);
@@ -979,8 +975,6 @@ p {
   min-height: 50px;
   color: var(--white-cl);
   display: inline-flex;
-  line-clamp: 2;
-  box-orient: vertical;
   text-overflow: ellipsis;
   overflow: hidden;
   transition: var(--duration);
@@ -990,8 +984,6 @@ p {
 }
 .blognews .blognews__list-item .content__text p {
   display: inline-flex;
-  line-clamp: 3;
-  box-orient: vertical;
   text-overflow: ellipsis;
   overflow: hidden;
   color: var(--white-cl);
@@ -1068,8 +1060,6 @@ p {
   min-height: 50px;
   color: var(--white-cl);
   display: inline-flex;
-  line-clamp: 2;
-  box-orient: vertical;
   text-overflow: ellipsis;
   overflow: hidden;
   transition: var(--duration);
@@ -1079,8 +1069,6 @@ p {
 }
 .detailnews .detailnews__list-item .content__text p {
   display: inline-flex;
-  line-clamp: 3;
-  box-orient: vertical;
   text-overflow: ellipsis;
   overflow: hidden;
   color: var(--white-cl);
@@ -2063,7 +2051,7 @@ p {
 .blog__list .content h2 a {
   cursor: pointer;
   color: var(--white-cl);
-  transform: transition(--duration);
+  transform: transition(var(--duration));
 }
 .blog__list .content h2 a:hover {
   color: var(--dark-cl);
@@ -2156,7 +2144,7 @@ p {
   }
   .blog__list .content__text .heading.xx-blog {
     position: relative;
-    font-size: dsb;
+    font-family: dsb;
     font-size: var(--fs-h3);
     line-height: var(--lh-h3);
     letter-spacing: var(--ls-h3);
@@ -2165,8 +2153,6 @@ p {
     min-height: 50px;
     color: var(--white-cl);
     display: inline-flex;
-    line-clamp: 2;
-    box-orient: vertical;
     text-overflow: ellipsis;
     overflow: hidden;
     transition: var(--duration);
@@ -2176,8 +2162,6 @@ p {
   }
   .blog__list .content__text .textbody.xx-bd1 {
     display: inline-flex;
-    line-clamp: 3;
-    box-orient: vertical;
     text-overflow: ellipsis;
     overflow: hidden;
     color: var(--white-cl);
@@ -2257,7 +2241,7 @@ p {
   }
   .subcribe .container .subcribe__form input {
     width: 95%;
-    padding: auto 16px;
+    padding: 0 16px;
   }
   .subcribe .container .subcribe__form button {
     position: absolute;
@@ -2325,7 +2309,7 @@ p {
 }
 @media (max-width: 847px) {
   .tabs li {
-    padding: auto;
+    padding: 0;
     width: 100%;
     justify-content: center;
   }

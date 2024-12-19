@@ -152,8 +152,6 @@
   // Overflow Text Dots
   @mixin overtext($lines) {
 	display: inline-flex;
-	line-clamp: $lines;
-	box-orient: vertical;
 	text-overflow: ellipsis;
 	overflow: hidden;
   }

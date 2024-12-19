@@ -31,7 +31,7 @@
         a {
           cursor: pointer;
           color: var(--white-cl);
-          @include transform(transition(--duration));
+          @include transform(transition(var(--duration)));
           &:hover {
             color: var(--dark-cl);
           }
@@ -106,7 +106,7 @@
           border-bottom: 1px solid var(--grey-dark-cl);
           .heading.xx-blog {
             position: relative;
-            font-size: dsb;
+            font-family: dsb;
             font-size: var(--fs-h3);
             line-height: var(--lh-h3);
             letter-spacing: var(--ls-h3);
@@ -198,7 +198,7 @@
         overflow: visible;
         input {
           width: 95%;
-          padding: auto 16px;
+          padding: 0 16px;
         }
         button {
           position: absolute;
@@ -265,7 +265,7 @@
       padding: 0 70px;
     }
     @include maxW(847px) {
-      padding: auto;
+      padding: 0;
       width: 100%;
       justify-content: center;
     }
