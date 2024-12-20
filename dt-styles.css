@@ -1676,7 +1676,7 @@ p {
 .homepage .portfolio .container .btnmain {
   margin-top: 48px;
 }
-.homepage .mission .container table table {
+.homepage .mission .container table {
   color: var(--white-cl);
   font-family: dsr;
   font-size: var(--fs-body1);
